@@ -12,7 +12,7 @@
 	background-color: #c28e0e;
 }
 
-#contact{
+.contact{
 	font-size:13px;
 }
 
@@ -2666,8 +2666,9 @@ a.anchor {
 		margin: 1em 0 0 0;
 	}
 
-		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+		#footer .icons a{
+			/*color: rgba(255, 255, 255, 0.4);*/
+			color: #c28e0e;
 		}
 
 	#footer .copyright {
@@ -3169,6 +3170,10 @@ a.anchor {
 
 			h3 {
 				font-size: 1em;
+			}
+
+			h4 {
+				font-size: 0.7em;
 			}
 
 		/* Section/Article */
