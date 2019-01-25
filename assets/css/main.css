@@ -2997,6 +2997,32 @@ a.anchor {
 				font-size: 12pt;
 			}
 
+			#header {
+				padding: 4.5em 2.25em 2.25em 2.25em;
+				/*width: 30%;*/
+				width: 25%;
+			}
+
+			#header h1 {
+					font-size: 1.25em;
+				}
+
+					#header h1 br {
+						display: none;
+					}
+
+			#header_container {
+				margin-left: 25%;
+			}
+
+			#main {
+				margin-left: 25%;
+				max-width: none;
+				/*padding: 6em 3em 3em 3em;*/
+				padding: 3em 1.5em 3em 1.5em;
+				width: calc(100% - 27%);
+			}
+
 	}
 
 /* Large */
