@@ -1,0 +1,250 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<title>CS590</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<script type="text/javascript" src="scripts/mootools.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $( function() {
+    /*$( "#accordion" ).accordion({active: false , collapsible: true});*/
+    $( "#accordion" ).accordion({
+      heightStyle: "content",
+      collapsible: true,
+      active: false,
+      /*activate: function( event, ui ) {
+        if(!$.isEmptyObject(ui.newHeader.offset())) {
+          $('html:not(:animated), body:not(:animated)').animate({ scrollTop: ui.newHeader.offset().top }, 'slow');
+        }
+      }*/
+    });
+  } );
+  
+
+  </script>
+</head>
+<body id="top">
+
+<!-- ####################### MENU ############################ -->
+<div class="wrapper col2">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="#">CS 59000 - HCC</a></h1>
+      <h2>Human-Centered Computing (Spring 2020)</h2>
+    </div>
+    <div id="topnav">
+       <ul>
+        <li><a class="active" href="index.html">Home</a><br><span>Is this course for you?</span></li>
+        <li><a href="calendar.html">Calendar</a><span>Slides, due dates, etc</span></li>
+        <li><a href="syllabus.html">Syllabus</a><span>About this Course</span></li>
+        <li class="active"><a href="readings.html">Resources</a><span>tips, books, articles</span></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4" style="min-height:500px;">
+    <div id="container">
+      <p>Below is an incomplete list of books and papers (in addition to required and optional papers that we discuss in class, grouped by topics) in the field of crowdsourcing and human-AI interaction for interested readers.</p>
+      <div id="accordion">
+        <h3>Books</h3>
+        <div>
+          <p>
+            Law and von Ahn. <a href="https://www.morganclaypool.com/doi/abs/10.2200/S00371ED1V01Y201107AIM013">Human Computation</a>. 2011
+          </p>
+          <p>Molnar. <a href="https://christophm.github.io/interpretable-ml-book/">Interpretable Machine Learning</a>. 2019</p>
+          <p>Kearns and Roth. <a href="https://www.amazon.com/Ethical-Algorithm-Science-Socially-Design/dp/0190948205">The Ethical Algorithm: The Science of Socially Aware Algorithm Design</a>. 2019</p>
+        </div>
+        <h3>Understanding Crowd Workers: Demographics, Size, Work Experience, Concerns and More</h3>
+        <div>
+          <p>Ross et al. <a href="https://dl.acm.org/citation.cfm?id=1753873">Who are the Crowdworkers?: Shifting Demographics in Mechanical Turk</a>. CHI'10 Extended Abstracts</p>
+          <p>Downs et al. <a href="https://dl.acm.org/citation.cfm?id=1753688">Are Your Participants Gaming the System?: Screening Mechanical Turk Workers</a>. CHI'10</p>
+          <p>Horton and Chilton. <a href="https://dl.acm.org/citation.cfm?id=1807376">The Labor Economics of Paid Crowdsourcing</a>. EC'10</p>
+          <p>Suri et al. <a href="https://dl.acm.org/citation.cfm?id=2908709">Honesty in an Online Labor Market</a>. HCOMP Workshop @ AAAI'11  </p>
+          <p>Berinsky. <a href="http://datacolada.org/wp-content/uploads/2014/04/Berinsky-Huber-Lenz-2012.pdf">Evaluating Online Labor Markets for Experimental Research: Amazon.com's Mechanical Turk</a>. Political Analysis, 2012</p>
+          <p>Paolacci and Chandler. <a href="http://psycnet.apa.org/record/2014-23615-005">Inside the Turk: Understanding Mechanical Turk as a Participant Pool</a>. Current Directions in Psychological Science, 2014</p>
+          <p>Pavlick et al. <a href="https://transacl.org/ojs/index.php/tacl/article/view/262">The Language Demographics of Amazon Mechnical Turk</a>. Transactions of the ACL, 2014</p>
+          <p>Chandler et al. <a href="https://link.springer.com/article/10.3758/s13428-013-0365-7">Nonnaivete among Amazon Mechanical Turk Workers: Consequences and Solutions for Behavioral Researchers</a>. Behavior Research Methods, March 2014</p>
+          <p>Bartneck et al. <a href="http://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0121595">Comparing the Similarity of Responses Received from Studies in Amazons Mechanical Turk to Studies Conducted Online and with Direct Recruitment</a>. PLOS ONE, 2015</p>
+          <p>Huff and Tingley. <a href="http://scholar.harvard.edu/files/dtingley/files/whoarethesepeople.pdf">"Who are These People?" Evaluating the Demographic Characteristics and Political Preferences of MTurk Survey Respondents</a>. Research and Politics, 2015</p>
+          <p>Brawley and Pury. <a href="https://dl.acm.org/citation.cfm?id=2840214.2840566">Work Experience on MTurk</a>. Computers in Human Behavior, January 2016
+          </p>
+           <p>McInnies et al. <a href="https://dl.acm.org/citation.cfm?id=2858539">Taking a HIT: Designing around Rejection, Mistrust, Risk, and Workers' Experiences in Amazon Mechanical Turk</a>. CHI'16</p>
+          <p>Xia et al. <a href="https://dl.acm.org/citation.cfm?id=3134748">"Our Privacy Needs to be Protected at All Costs": Crowd Workers' Privacy Experiences on Amazon Mechanical Turk</a>. CSCW'18</p>
+          <p>Hara et al. <a href="https://arxiv.org/abs/1712.05796">A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk</a>. CHI'18</p>
+          <p>Sannon and Cosley. <a href="https://dl.acm.org/doi/10.1145/3290605.3300512">Privacy, Power, and Invisible Labor on Amazon Mechanical Turk</a>. CHI'19</p>
+          <p>Lascau et al. <a href="https://dl.acm.org/doi/10.1145/3290605.3300649">Monotasking or Multitasking: Designing for Crowdworkers' Preferences</a>. CHI'19</p>
+          <p>Jacques and Kristensson. <a href="https://dl.acm.org/doi/10.1145/3290605.3300621">Crowdworker Econonmics in the Gig Economy</a>. CHI'19</p>
+          <p>Williams et al. <a href="https://dl.acm.org/doi/10.1145/3359126">The Perpetual Work Life of Crowdworkers: How Tooling Practices Increase Fragmentation in Crowdwork</a>. CSCW'19</p>
+        </div>
+        <h3>Crowdsourcing Incentive Design and Control</h3>
+        <div>
+          <p>Mason and Watts. <a href="https://dl.acm.org/citation.cfm?id=1600175">Financial Incentives and the "Performance of Crowds"</a>. HCOMP'09</p>
+          <p>Harris. <a href="http://ir.ischool.utexas.edu/csdm2011/proceedings/csdm2011_harris.pdf">You're Hired! An Examination of Crowdsourcing Incentive Models in Human Resource Tasks</a>. CSDM Workshop @ WSDM'11</p>
+          <p>Kaufmann et al. <a href="https://aisel.aisnet.org/amcis2011_submissions/340/">More Than Fun and Money. Worker Motivation in Crowdsourcing--A Study on Mechanical Turk</a>. AMCIS'11</p>
+          <p>Faridani et al. <a href="https://dl.acm.org/citation.cfm?id=2908703">What's the Right Price? Pricing Tasks for Finishing on Time</a>. HCOMP Workshop @ AAAI'11</p>
+          <p>Chen et al. <a href="https://dl.acm.org/citation.cfm?id=3042817.3042944">Optimistic Knowledge Gradient Policy for Optimal Budget Allocation in Crowdsourcing</a>. ICML'13</p>
+          <p>Huang and Fu. <a href="https://dl.acm.org/citation.cfm?id=2470743&dl=ACM&coll=DL">Don't Hide in the Crowd!: Increasing Social Transparency between Peer Workers Improves Crowdsourcing Outcomes</a>. CHI'13</p>
+          <p>Tran-Thanh et al. <a href="https://dl.acm.org/citation.cfm?id=2485063">Efficient Budget Allocation with Accuracy Guarantees for Crowdsourcing Classification Tasks</a>. AAMAS'13</p>
+          <p>Mao et al. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP13/paper/view/7497">Volunteering Versus Work for Pay: Incentives and Tradeoffs in Crowdsourcing</a>. HCOMP'13</p>
+          <p>Lee et al. <a href="https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/viewPaper/6118">Experiments on Motivational Feedback for Crowdsourced Workers</a>. ICWSM'13</p>
+          <p>Raddick et al. <a href="https://arxiv.org/abs/1303.6886">Galaxy Zoo: Motivations of Citizen Scientists</a>. 2013</p>
+          <p>Singer and Mittal. <a href="https://dl.acm.org/citation.cfm?id=2488489">Pricing Mechanisms for Crowdsourcing Markets</a>. WWW'13</p>
+          <p>Singla and Krause. <a href="https://dl.acm.org/citation.cfm?id=2488490">Truthful Incentives in Crowdsourcing Tasks Using Regret Minimization Mechanisms</a>. WWW'13</p>
+          <p>Difallah et al. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP14/paper/view/8958">Scaling-Up the Crowd: Micro-Task Pricing Schemes for Worker Retention and Latency Improvement</a>. HCOMP'14</p>
+          <p>Rokicki et al. <a href="https://dl.acm.org/citation.cfm?id=2661946">Competitive Game Designs for Improving the Cost Effectiveness of Crowdsourcing</a>. CIKM'14</p>
+          <p>Teodoro et al. <a href="https://dl.acm.org/citation.cfm?id=2531680">The Motivations and Experiences of the On-Demand Mobile Workforce</a>. CSCW'14</p>
+          <p>Tran-Thanh et al. <a href="https://dl.acm.org/citation.cfm?id=2615809">BudgetFix: Budget Limited Crowdsourcing for Interdependent Task Allocation with Quality Guarantees</a>. AAMAS'14</p>
+          <p>Nov et al. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090375">Scientists@Home: What Drives the Quantity and Quality of Online Citizen Science Participation?</a>. PLOS ONE, April 2014</p> 
+          <p>Yin et al. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP14/paper/view/8970">Monetary Interventions in Crowdsourcing Task Switching</a>. HCOMP'14</p>
+          <p>Dergousoff and Mandryk. <a href="https://dl.acm.org/citation.cfm?id=2702296&dl=ACM&coll=DL">Mobile Gamification for Crowdsourcing Data Collection: Leveraging the Freemium Model</a>. CHI'15</p>
+          <p>Goran and Faltings. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP16/paper/view/14033">Learning to Scale Payments in Crowdsourcing with PropeRBoost</a>. HCOMP'16</p>
+          <p>Ho et al. <a href="http://www.jair.org/papers/paper4940.html">Adaptive Contract Design for Crowdsourcing Markets: Bandit Algorithms for Repeated Principal-Agent Problems</a>. Journal of Artificial Intelligence Research, 2016</p>
+          <p>Ikeda and Bernstein. <a href="https://dl.acm.org/citation.cfm?id=2858327">Pay It Backward: Per-Task Payments on Crowdsourcing Platforms Reduce Productivity</a>. CHI'16</p>
+          <p>Vaughan. <a href="https://dl.acm.org/citation.cfm?id=3123746&dl=ACM&coll=DL">Incentives and the Crowd</a>. XRDS, Fall 2017</p>
+          <p>Xia and Muthukrishnan. <a href="https://aaai.org/ocs/index.php/HCOMP/HCOMP17/paper/view/15918">Revenue-Maximizing Stable Pricing in Online Labor Markets</a>. HCOMP'17</p>
+          <p>Ye et al. <a href="https://aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/view/15601/14822">When Does More Money Work? Examining the Role of Perceived Fairness in Pay on the Performance Quality of Crowdworkers </a>. ICWSM'17</p>
+          <p>Feyisetan and Simperl. <a href="https://dl.acm.org/citation.cfm?id=3078852">Social Incentives in Paid Collaborative Crowdsourcing</a>. TIST, September 2017</p>
+          <p>d'Eon et al. <a href="https://dl.acm.org/doi/10.1145/3359227">Paying Crowd Workers for Collaborative Work</a>. CSCW'19</p>
+        </div>
+        <h3>Task Assignment, Routing and Recommendation</h3>
+        <div>
+           <p>Yuen et al. <a href="https://dl.acm.org/citation.cfm?id=2442661">Task Recommendation in Crowdsourcing Systems</a>. CrowdKDD'12</p>
+          <p>Celis et al. <a href="https://dl.acm.org/citation.cfm?id=2488125">Adaptive Crowdsourcing for Temporal Crowds</a>. WWW'13</p>
+          <p>Heidari and Kearns. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP13/paper/view/7542">Depth-Workload Tradoffs for Workforce Organization</a>. HCOMP'13</p>
+          <p>Ho et al. <a href="https://dl.acm.org/citation.cfm?id=3042817.3042879">Adaptive Task Assignment for Crowdsourced Classification</a>. ICML'13</p>
+          <p>Bragg et al. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP14/paper/view/8981">Parallel Task Routing for Crowdsourcing</a>. HCOMP'14</p>
+          <p>Goel et al. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP14/paper/view/8968">Mechanism Design for Crowdsourcing Markets with Heterogeneous Tasks</a>. HCOMP'14</p>
+          <p>Tran-Thanh et al. <a href="https://dl.acm.org/citation.cfm?id=2615809">BudgetFix: Budget Limited Crowdsourcing for Interdependent Task Allocation with Quality Guarantees</a>. AAMAS'14</p>
+          <p>Tran-Thanh et al. <a href="https://www.sciencedirect.com/science/article/pii/S0004370214000538">Efficient Crowdsourcing of Unknown Experts Using Bounded Multi-Armed Bandits</a>. Artificial Intelligence, September 2014.</p>
+          <p>Assadi et al. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP15/paper/view/11598">Online Assignment of Heterogeneous Tasks in Crowdsourcing Markets</a>. HCOMP'15</p>
+          <p>Kobren et al. <a href="https://dl.acm.org/citation.cfm?id=2741681">Getting More for Less: Optimized Crowdsourcing with Dynamic Tasks and Goals</a>. WWW'15</p>
+          <p>Roy et al. <a href="https://link.springer.com/article/10.1007/s00778-015-0385-2">Task Assignment Optimization in Knowledge-Intensive Crowdsourcing</a>. VLDB Journal, August 2015</p>
+          <!--<p>Tran-Thanh et al. <a href="https://dl.acm.org/citation.cfm?id=2887187">Crowdsourcing Complex Workflows under Budget Constraints</a>. AAAI'15</p>-->
+          <p>Zheng et al. <a href="https://dl.acm.org/citation.cfm?id=2749430">QASCA: A Quality-Aware Task Assignment System for Crowdsourcing Applications</a>. SIGMOD'15</p>
+          <p>Schnitzer et al. <a href="https://dl.acm.org/citation.cfm?id=2890087">Perceived Task Similarities for Task Recommendation in Crowdsourcing Systems</a>. WWW'16</p>
+          <p>Goncalves et al. <a href="https://dl.acm.org/citation.cfm?id=3055128">Task Routing and Assignment in Crowdsourcing based on Cognitive Abilities</a>. WWW'17</p>
+          <p>Pilourdault et al. <a href="https://hal.archives-ouvertes.fr/hal-01498801/">Motivation-Aware Task Assignment in Crowdsourcing</a>. EDBT, March 2017</p>
+        </div>
+        <h3>Quality Assurance</h3>
+        <div>
+          <p>Raykar et al. <a href="https://dl.acm.org/citation.cfm?id=1553488">Supervised Learning from Multiple Experts: Whom to Trust When Everyone Lies a Bit</a>. ICML'09</p>
+          <p>Ipeirotis et al. <a href="https://dl.acm.org/citation.cfm?id=1837906">Quality Management on Amazon Mechanical Turk</a>. HCOMP Workshop @ KDD'10</p>
+          <p>Karger et al. <a href="https://papers.nips.cc/paper/4396-iterative-learning-for-reliable-crowdsourcing-systems">Iterative Learning for Reliable Crowdsourcing Systems</a>. NIPS'11</p>
+          <p>Hansen et al. <a href="https://dl.acm.org/citation.cfm?id=2441848">Quality Control Mechanisms for Crowdsourcing: Peer Review, Arbitration, & Expertise at FamilySearch Indexing</a>. CSCW'13</p>
+          <p>Joglekar et al. <a href="https://dl.acm.org/citation.cfm?id=2487575.2487595">Evaluating the Crowd with Confidence</a>. KDD'13</p>
+          <p>Kajino et al. <a href="https://dl.acm.org/citation.cfm?id=2891460.2891616">Clustering Crowds</a>. AAAI'13</p>
+          <p>Mao et al. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI13/paper/viewPaper/6279">Better Human Computation Through Principled Voting</a>. AAAI'13</p>
+          <p>Venanzi et al. <a href="https://dl.acm.org/citation.cfm?id=2485052">Trust-Based Fusion of Untrustworthy Information in Crowdsourcing Applications</a>. AAMAS'13</p>
+          <p>Aydin et al. <a href="https://dl.acm.org/citation.cfm?id=2892959">Crowdsourcing for Multiple-Choice Question Answering</a>. AAAI'14</p>
+          <p>Jagabathula et al. <a href="https://papers.nips.cc/paper/5393-reputation-based-worker-filtering-in-crowdsourcing">Reputation-Based Worker Filtering in Crowdsourcing</a>. NIPS'14</p>
+          <p>Li et al. <a href="https://dl.acm.org/citation.cfm?id=2568033">The Wisdom of Minority: Discovering and Targeting the Right Group of Workers for Crowdsourcing</a>. WWW'14</p>
+          <p>Venanzi et al. <a href="https://dl.acm.org/citation.cfm?id=2567989">Community-Based Bayesian Aggregation Models for Crowdsourcing</a>. WWW'14</p>
+          <p>Kazai and Zitouni. <a href="https://dl.acm.org/citation.cfm?id=2835835">Quality Management in Crowdsourcing using Gold Judges Behavior</a>. WSDM'16</p>
+          <p>Augustin et al. <a href="https://www.ijcai.org/proceedings/2017/0195.pdf">Bayesian Aggregation of Categorical Distributions with Applications in Crowdsourcing</a>. IJCAI'17</p>
+          <p>Gadiraju et al. <a href="https://dl.acm.org/citation.cfm?id=3119930">Using Worker Self-Assessments for Competence-Based Pre-Selection in Crowdsourcing Microtasks</a>. ACM Transactions on Computer-Human Interaction (TOCHI), September 2017</p>
+          <p>Daniel et al. <a href="https://dl.acm.org/citation.cfm?id=3148148">Quality Control in Crowdsourcing: A Survey of Quality Attributes, Assessment Techniques, and Assurance Actions</a>. ACM Computing Surveys, February 2018.</p>
+           <p>Tian et al. <a href="http://ml.cs.tsinghua.edu.cn/~tian/papers/CrowdV.pdf">Selective Verification Strategy for Learning from Crowds</a>. AAAI'18</p>
+           <p>Doroudi et al. <a href="https://wvvw.aaai.org/ojs/index.php/HCOMP/article/view/5269">Not Everyone Writes Good Examples but Good Examples Can Come from Anywhere</a>. HCOMP'19</p>
+        </div>
+        <h3>Engaging the Crowd</h3>
+        <div>
+          <p>Mao et al. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP13/paper/view/7498">Why Stop Now? Predicting Worker Engagement in Online Crowdsourcing</a>. HCOMP'13</p>
+          <p>Dontcheva et al. <a href="https://dl.acm.org/citation.cfm?id=2557217">Combining Crowdsourcing and Learning to Improve Engagement and Performance</a>. CHI'14</p>
+          <p>Eveleigh et al. <a href="https://dl.acm.org/citation.cfm?id=2557262">Designing for Dabblers and Deterring Drop-Outs in Citizen Science</a>. CHI'14</p>
+          <p>Segal et al. <a href="https://dl.acm.org/citation.cfm?id=2743051">Improving Productivity in Citizen Science through Controlled Intervention</a>. WWW'15</p>
+          <p>Park et al. <a href="https://www.aaai.org/ojs/index.php/HCOMP/article/view/5282">AI-Based Request Augmentation to Increase Crowdsourcing Participation</a>. HCOMP'19</p>
+        </div>
+        <h3>Crowdsourcing Complex Tasks</h3>
+        <div>
+          <p>Law and Zhang. <a href="https://dl.acm.org/citation.cfm?id=2900615">Towards Large-Scale Collaborative Planning: Answering High-Level Search Queries Using Human Computation</a>. AAAI'11</p>
+          <p>Ambati et al. <a href="https://dl.acm.org/citation.cfm?id=2145382">Collaborative Workflow for Crowdsourcing Translation</a>. CSCW'12</p>
+          <p>Willett et al. <a href="https://dl.acm.org/citation.cfm?id=2207709">Strategies for Crowdsourcing Social Data Analysis</a>. CHI'12</p>
+          <p>Andre et al. <a href="https://dl.acm.org/citation.cfm?id=2531653">Crowd Synthesis: Extracting Categories and Clusters from Complex Data</a>. CSCW'14</p>
+          <p>Verroios and Bernstein. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP14/paper/view/8951">Context Trees: Crowdsourcing Global Understanding from Local Views</a>. HCOMP'14</p>
+          <p>Goto et al. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP16/paper/view/14047">Understanding Crowdsourcing Workflow: Modeling and Optimizing Iterative and Parallel Processes</a>. HCOMP'16</p>
+           <p>Gebru et al. <a href="https://dl.acm.org/citation.cfm?id=3025453.3025930">Scalable Annotation of Fine-Grained Categories Without Experts</a>. CHI'17</p> 
+           <p>Chen et al. <a href="https://dl.acm.org/doi/10.1145/3290605.3300761">Cicero: Multi-Turn, Contextual Argumentation for Accurate Crowdsourcing</a>. CHI'19</p> 
+           <p>Venkatagiri et al. <a href="https://dl.acm.org/doi/10.1145/3359209">GroundTruth: Augmenting Expert Image Geolocation with Crowdsourcing and Shared Representations</a>. CSCW'19</p>
+           <p>Chung et al. <a href="https://dl.acm.org/doi/10.1145/3359164">Efficient Elicitation Approaches to Estimate Collective Crowd Answers</a>. CSCW'19</p>
+           <p>Mohanty et al. <a href="https://aaai.org/ojs/index.php/HCOMP/article/view/5272">Second Opinion: Supporting Last-Maile Person Idetnification with Crowdsourcing and Face Recognition</a>. HCOMP'19</p>
+        </div>
+        <h3>Interpretable ML Methods</h3>
+        <div>
+          <p>Craven and Shavlik. <a href="https://dl.acm.org/doi/10.5555/2998828.2998832">Extracting Tree-Structured Representations of Trained Networks</a>. NIPS'95</p>
+          <p>Chipman et al. <a href="https://pdfs.semanticscholar.org/7280/e54fce0d91d00d81e9ec47d309b2cb5a8edc.pdf">Making Sense of a Forest of Trees</a>. Computing Science and Statistics, 1998.</p>
+          <p>Poulin et al. <a href="https://dl.acm.org/doi/10.5555/1597122.1597143">Visual Explanation of Evidence in Additive Classifiers</a>. IAAI'16</p>
+          <p>Johansson and Niklasson. <a href="https://ieeexplore.ieee.org/document/4938655">Evolving Decision Trees Using Oracle Guides</a>. CIDM'09</p>
+          <p>Strumbelj and Konoenko. <a href="https://dl.acm.org/doi/10.5555/1756006.1756007">An Efficient Explanation of Individual Classifications Using Game Theory</a>. Journal of Machine Learning Research, March 2010</p>
+          <p>Lou et al. <a href="https://dl.acm.org/doi/10.1145/2339530.2339556">Intelligible Models for Classification and Regression</a>. KDD'12</p>
+          <p>Lou et al. <a href="https://dl.acm.org/doi/10.1145/2487575.2487579">Accurate Intelligible Models with Pairwise Interactions</a>. KDD'13</p>
+          <p>Kim et al. <a href="https://dl.acm.org/doi/10.5555/2969033.2969045">The Bayesian Case Model: A Generative Approach for Case-based Reasoning and Prototype Classification</a>. NIPS'14</p>
+          <p>Xu et al. <a href="https://dl.acm.org/doi/10.5555/3045118.3045336">Show, Attend and Tell: Nueral Image Caption Generation with Visual Attention</a>. ICML'15</p>
+          <p>Letham et al. <a href="https://www.jstor.org/stable/43826424">Interpretable Classifiers Using Rules and Bayesian Analysis: Building a Better Stroke Prediction Model</a>. The Annals of Applied Statistics, September 2015</p>
+          <p>Kim et al. <a href="https://papers.nips.cc/paper/5957-mind-the-gap-a-generative-approach-to-interpretable-feature-selection-and-extraction">Mind the Gap: A Generative Approach to Interpretable Feature Selection and Extraction</a>. NIPS'15</p>
+          <p>Zhou et al. <a href="https://ieeexplore.ieee.org/abstract/document/7780688">Learning Deep Features for Discriminative Localization</a>. CVPR'16</p>
+          <p>Lei et al. <a href="https://www.aclweb.org/anthology/D16-1011/">Retionalizing Neural Predictions</a>. ACL'16</p>
+          <p>Lakkaraju et al. <a href="https://dl.acm.org/doi/10.1145/2939672.2939874">Interpretable Decision Sets: A Joint Framework for Description and Prediction</a>. KDD'16</p>
+          <p>Kim et al. <a href="https://papers.nips.cc/paper/6300-examples-are-not-enough-learn-to-criticize-criticism-for-interpretability">Examples Are Not Enough, Learn to Criticize! Criticism for Interpretability</a>. NIPS'16</p>
+          <p>Selvaraju et al. <a href="http://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html">Grad-CAM: Visual Explanations From Deep Networks via Gradient-Based Localization</a>. ICCV'17</p>
+          <p>Fong and Vedaldi. <a href="http://openaccess.thecvf.com/content_iccv_2017/html/Fong_Interpretable_Explanations_of_ICCV_2017_paper.html">Interpretable Explanations of Black Boxes by Meaningful Perturbation</a>. ICCV'17</p>
+          <p>Zintgraf et al. <a href="https://openreview.net/forum?id=BJ5UeU9xx">Visualizing Deep Neural Network Decisions: Prediction Difference Analysis</a>. ICLR'17</p>
+          <p>Jung et al. <a href="https://arxiv.org/abs/1702.04690">Simple Rules for Complex Decisions</a>. 2017</p>
+          <p>Wu et al. <a href='https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPaper/16285'>Beyond Sparsity: Tree Regularization of Deep Models for Interpretability</a>. AAAI'18</p>
+          <p>Ribeiro et al. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16982">Anchors: High-Precision Model-Agnostic Explanations</a>. AAAI'18</p>
+          <p>Hara and Hayashi. <a href="http://proceedings.mlr.press/v84/hara18a.html">Making Tree Ensembles Interpretable: A Bayesian Model Selection Approach</a>. AISTATS'18</p>
+          <p>Guidotti et al. <a href="https://arxiv.org/abs/1805.10820">Local Rule-Based Explanations of Black Box Decision Systems</a>. 2018</p>
+          <p>Hase et al. <a href="https://arxiv.org/abs/1906.10651">Interpretable Image Recognition with Hierarchical Prototypes</a>. HCOMP'19</p>
+        </div>
+        <h3>Fair ML: Problems, Definitions and Methods</h3>
+        <div>
+          <p>Dwork et al. <a href="https://dl.acm.org/doi/10.1145/2090236.2090255">Fairness through Awareness</a>. ITCS'12</p>
+          <p>Zemel et al. <a href="http://proceedings.mlr.press/v28/zemel13.html">Learning Fair Representations</a>. ICML'13</p>
+          <p>Feldman et al. <a href="https://dl.acm.org/doi/10.1145/2783258.2783311">Certifying and Removing Disparate Impact</a>. KDD'15</p>
+          <p>Bolukbasi et al. <a href="http://papers.nips.cc/paper/6227-man-is-to-computer-programmer-as-woman-is-to-homemaker-debiasing-word-embeddings">Man in Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings</a>. NIPS'16</p>
+          <p>Hardt et al. <a href="https://dl.acm.org/doi/10.5555/3157382.3157469">Equality of Opportunity in Supervised Learning</a>. NIPS'16</p>
+          <p>Joseph et al. <a href="https://papers.nips.cc/paper/6355-fairness-in-learning-classic-and-contextual-bandits">Fairness in Learning: CLassic and Contextual Bandits</a>. NIPS'16</p>
+          <p>Chouldechova. <a href="https://www.liebertpub.com/doi/abs/10.1089/big.2016.0047">Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments</a>. Big Data, Jun 2017</p>
+          <p>Jabbari et al. <a href="https://dl.acm.org/doi/10.5555/3305381.3305548">Fairness in Reinforcement Learning</a>. ICML'17</p>
+          <p>Chen et al. <a href="https://papers.nips.cc/paper/7613-why-is-my-classifier-discriminatory.pdf">Why is My Classifier Discriminatory?</a>. NIPS'18</p>
+          <p>Kim et al. <a href="https://dl.acm.org/doi/10.5555/3327345.3327393">Fairness through Computationally-Bounded Awareness</a>. NIPS'18</p>
+          <p>Buolamwini et al. <a href="http://proceedings.mlr.press/v81/buolamwini18a.html">Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification</a>. ACM FAT*'18</p>
+          <p>Kearns et al. <a href="http://proceedings.mlr.press/v80/kearns18a.html">Preventing Fairness Gerrymandering: Auditing and Learning from Subgroup Fairness</a>. ICML'18</p>
+          <p>Liu et al. <a href="http://proceedings.mlr.press/v80/liu18c/liu18c.pdf">Delayed Impact of Fair Machine Learning</a>. ICML'18</p>
+        </div>
+        <h3>HCI for Fair, Accountable, Transparant and Explainable AI</h3>
+        <div>
+          <p>Krause et al. <a href="https://dl.acm.org/doi/10.1145/2858036.2858529">Interacting with Predictions: Visual Inspection of Black-box Machine Learning Models</a>. CHI'16</p>
+          <p>Abdul et al. <a href="https://dl.acm.org/doi/10.1145/3173574.3174156">Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda</a>. CHI'18</p>
+          <p>Veale et al. <a href="https://dl.acm.org/doi/10.1145/3173574.3174014">Fairness and Accountability Design Needs for Algorithmic Support in High-Stakes Public Sector Decision-Making</a>. CHI'18</p>
+          <p>Wang et al. <a href="https://dl.acm.org/doi/10.1145/3290605.3300831">Designing Theory-Driven User-Centric Explainable AI</a>. CHI'19</p>
+          <p>Yang et al. <a href="https://dl.acm.org/doi/10.1145/3290605.3300468">Unremarkable AI: Fitting Intelligent Decision Support into Critical, Clinical Decision-Making Processes</a>. CHI'19</p>
+          <p>Schaffer et al. <a href="https://dl.acm.org/doi/10.1145/3301275.3302308">I Can Do Better Than Your AI: Expertise and Explanations</a>. IUI'19</p>
+        </div>
+        <!--<h3>Crowd-Powered Systems</h3>
+        <div>
+          <p>Lasecki et al. <a href="https://dl.acm.org/citation.cfm?id=2502057">Chorus: A Crowd-Powered Conversational Assistant</a>. UIST'13</p>
+          <p>Ipeirotis and Gabrilovich. <a href="https://dl.acm.org/citation.cfm?id=2567988">Quizz: Targeted Crowdsourcing with a Billion (Potential) Users</a>. WWW'14</p>
+          <p>Luther et al. <a href="https://www.aaai.org/ocs/index.php/HCOMP/HCOMP15/paper/view/11603">Crowdlines: Supporting Synthesis of Diverse Information Sources through Crowdsourced Outlines</a>. HCOMP'15</p>
+        </div>-->
+      </div>
+    </div>
+</div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper col6">
+  <div id="copyright">
+    <p class="fl_right">Design by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<script type="text/javascript" src="scripts/toggle.js"></script>
+</body>
+</html>
