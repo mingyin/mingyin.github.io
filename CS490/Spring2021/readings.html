@@ -1,0 +1,82 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<title>CS590</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<script type="text/javascript" src="scripts/mootools.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $( function() {
+    /*$( "#accordion" ).accordion({active: false , collapsible: true});*/
+    $( "#accordion" ).accordion({
+      heightStyle: "content",
+      collapsible: true,
+      active: false,
+      /*activate: function( event, ui ) {
+        if(!$.isEmptyObject(ui.newHeader.offset())) {
+          $('html:not(:animated), body:not(:animated)').animate({ scrollTop: ui.newHeader.offset().top }, 'slow');
+        }
+      }*/
+    });
+  } );
+  
+
+  </script>
+</head>
+<body id="top">
+
+<!-- ####################### MENU ############################ -->
+<div class="wrapper col2">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="#">CS 49000 - HCI</a></h1>
+      <h2>Human-Computer Interaction (Spring 2021)</h2>
+    </div>
+    <div id="topnav">
+       <ul>
+        <li><a class="active" href="index.html">Home</a><br><span>Is this course for you?</span></li>
+        <li><a href="calendar.html">Calendar</a><span>Slides, due dates, etc</span></li>
+        <li><a href="syllabus.html">Syllabus</a><span>About this Course</span></li>
+        <li class="active"><a href="readings.html">Resources</a><span>tips, books, articles</span></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4" style="min-height:500px;">
+    <div id="container">
+      <h3><b>Optional Textbook</b></h3>
+      <p>H. Sharp, J. Preece, Y. Rogers (2015). <i>Interaction Design: Beyond Human-Computer Interaction</i>. John Wiley & Sons.</p>
+      <h3><b>Useful Reference</b></h3>
+      <p>Norman, D. (2013). <i>The design of everyday things: Revised and expanded edition</i>. Basic books.</p>
+      <p>Martin, D. (2007). Doing psychology experiments. Nelson Education.</p>
+      <h3><b>Recent Research on Human-Computer Interaction</b></h3>
+      To learn more about recent research progress in the area of huamn-computer interaction, check out papers published in the top conferences
+      in data mining:
+      <ul>
+        <li><a href="https://chi2021.acm.org/">ACM CHI Conference on Human Factors in Computing Systems (CHI)</a></li>
+        <li><a href="https://cscw.acm.org/2021/">ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)</a></li>
+        <li><a href="https://uist.acm.org/uist2021/">ACM Symposium on User Interface Software and Technology</a></li>
+        <li><a href="https://ubicomp.hosting.acm.org/ubicomp2021/">ACM Internatinoal Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)</a></li>
+        <li><a href="https://iui.acm.org/2021/">ACM International Conference on Intelligent User Interfaces (IUI)</a></li>
+      </ul>
+    </div>
+</div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper col6">
+  <div id="copyright">
+    <p class="fl_right">Design by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<script type="text/javascript" src="scripts/toggle.js"></script>
+</body>
+</html>
