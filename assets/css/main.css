@@ -1714,6 +1714,22 @@ a.anchor {
 			text-decoration: none;
 		}
 
+.pubs {
+		color: #787878;
+	}
+
+.name{
+	 text-decoration: none !important;
+	 border-bottom-color: transparent;
+}
+
+.name:hover {
+			border-bottom-color: transparent;
+			/*color: #49bf9d !important;*/
+			color: black !important;
+			text-decoration: none;
+		}
+
 	strong, b {
 		color: #787878;
 		font-weight: 800;
