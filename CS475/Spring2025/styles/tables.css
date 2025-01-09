@@ -1,0 +1,87 @@
+/*
+Template Name: OnlineFolio
+File: Tables CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+.required{
+	background-color: #CC0000;
+	padding: 3px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.optional{
+	background-color: #228B22;
+	padding: 3px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+table p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+table{
+	width:100%;
+	border-collapse:collapse;
+	table-layout:auto;
+	vertical-align:top;
+	margin-bottom:15px;
+	border:1px solid #CCCCCC;
+	}
+
+table thead th{
+	color:#FFFFFF;
+	background-color:#666666 !important;
+	border:1px solid #CCCCCC;
+	border-collapse:collapse;
+	text-align:center;
+	table-layout:auto;
+	vertical-align:middle;
+	}
+
+table tbody td{
+	vertical-align:top;
+	border-collapse:collapse;
+	border:1px solid #CCCCCC;
+	}
+	
+table thead th, table tbody td{
+	padding:5px;
+	border-collapse:collapse;
+	}
+
+table tbody tr.light{
+	color:#000;
+	background-color:#F7F7F7;
+	}
+
+table tbody tr.silver{
+	color:#000;
+	background-color:#E9E9E9;
+	}
+
+table tbody tr.heading{
+	color:#ffffff;
+	background-color:#111;
+	}
+
+table tbody tr.dark{
+	color:#666666;
+	background-color:#E8E8E8;
+	}
+
+table tbody td.dark{
+	color:#000;
+	background-color:#aaa;
+	}
+
+table tbody td.project{
+	color:#c28e0e;
+	}
